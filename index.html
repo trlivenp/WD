@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -13,22 +13,24 @@
             <input type="text" id="cityInput" placeholder="Enter a city">
             <button id="searchBtn">Search</button>
         </div>
-        <div class="current-weather">
-            <h2>Current Weather</h2>
-            <div id="currentWeather">
-                <!-- Display current weather data here -->
+        <div class="weather-content">
+            <div class="current-weather">
+                <h2>Current Weather</h2>
+                <div id="currentWeather">
+                    <!-- Current weather data will be displayed here -->
+                </div>
             </div>
-        </div>
-        <div class="forecast">
-            <h2>5-Day Forecast</h2>
-            <div id="forecast">
-                <!-- Display forecast data here -->
+            <div class="forecast">
+                <h2>5-Day Forecast</h2>
+                <div id="forecast">
+                    <!-- 5-day forecast data will be displayed here -->
+                </div>
             </div>
         </div>
         <div class="search-history">
             <h2>Search History</h2>
             <ul id="searchHistory">
-                <!-- Display search history items here -->
+                <!-- Search history items will be displayed here -->
             </ul>
         </div>
     </div>
